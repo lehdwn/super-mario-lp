@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsivo.css">
+    <title>Super Mario</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./assets/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./assets/imagens/logo-chapeu-mario.png" alt="">
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Detalhes</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="title" src="./assets/imagens/titulo.png" alt="">
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt illo vel fugiat, architecto ab magnam nam eos recusandae nesciunt aut, harum nemo nobis, cumque sint sit ipsa reprehenderit corrupti suscipit?</p>
+
+            <button class="btn-trailer">Veja o trailer
+            </button>
+        </div>
+
+        <div class="mario-chars"><img src="./assets/imagens/super-mario-chars.png" alt="">
+        </div>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
